@@ -1,11 +1,6 @@
 
-html{
-    height: 50vh !important;
-
-}
 body{
     box-sizing: border-box;
-    height: 100%;
     width: 100%;
 }
 
@@ -49,6 +44,18 @@ header img{
 .dropdown-item{
     color:black !important;
     width: 150px;
+
+}
+
+.dropdown-item {
+    font-size: 13px !important;
+    font-weight: 520;
+}
+#carousel{
+    max-width: 550px;
+    height: auto;
+    margin:0 auto;
+    border: 5px #4d4d4d solid;
 }
 .navbar{
 
@@ -63,11 +70,29 @@ header img{
     padding: 22px;
    
 }
+#jatekrol{
+    background-color: #bdbdbd;
+    padding: 30px;
+    margin-bottom: 80px;
+}
 .navbar a{
     margin-top: 2px;
     margin-left: 10px;
     margin-right: 10px;
     color:white;
+    transition: 0.4s !important;
+    -webkit-transition: 0.4s !important;
+    -moz-transition: 0.4s !important;
+    -ms-transition: 0.4s !important;
+    -o-transition: 0.4s !important;
+}
+.navbar a:hover{
+    color:rgba(255, 255, 255, 0.858) !important;
+    transition: 0.4s !important;
+    -webkit-transition: 0.4s !important;
+    -moz-transition: 0.4s !important;
+    -ms-transition: 0.4s !important;
+    -o-transition: 0.4s !important;
 }
 .navbar-collapse{
     padding-left: 10%;
@@ -89,9 +114,12 @@ header{
 }
 footer{
     background-color: #273272;
-    height: 30vh;
     width: 100%;
+
+
+    height:200px;
 }
+
 #tartalom{
     height: fit-content;
     padding: 40px;
@@ -144,18 +172,78 @@ footer{
 .col-md .col{
     text-align: center;
 }
+.navbar{
+    position: sticky;
+    top:0;
+    z-index: 499;
+
+}
 #gomb{
   
     padding: 10px;
     color:white;
     background-color: #383e70;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 5px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
     border:0px;
+    transition: 0.4s !important;
+    -webkit-transition: 0.4s !important;
+    -moz-transition: 0.4s !important;
+    -ms-transition: 0.4s !important;
+    -o-transition: 0.4s !important;
     font-weight: 400;
+}
+#gomb:hover{
+    background-color: #51599e;
+    transition: 0.4s !important;
+    -webkit-transition: 0.4s !important;
+    -moz-transition: 0.4s !important;
+    -ms-transition: 0.4s !important;
+    -o-transition: 0.4s !important;
+}
+#szoveg{
+    width: fit-content;
+    height: fit-content;
+    color:rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 20px;
+    margin:0 auto;
+    text-align: center;
+    margin-top: 10px;
+}
+#szoveg span{
+    font-size: 25px;
+    font-weight: 550;
+    
+}
+#valami{
+    padding-top: 60px;
+}
+footer ul li{
+    margin:0 auto;
+    display:inline-block;
+    list-style-type: none;
+    color:white;
+
+}
+footer ul li{
+
+    
+    padding-top: 20px;
+
+}
+footer ul{
+    text-align: center;
+}
+#doboz{
+    background-color: #bdbdbd;
+    max-width: 400px;
+    margin:0 auto;
+    padding:30px;
+    margin-bottom: 30px;
 }
