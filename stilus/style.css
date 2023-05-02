@@ -71,7 +71,7 @@ header img{
    
 }
 #jatekrol{
-    background-color: #bdbdbd;
+    background-color: #dddddd;
     padding: 30px;
     margin-bottom: 80px;
 }
@@ -241,9 +241,16 @@ footer ul{
     text-align: center;
 }
 #doboz{
-    background-color: #bdbdbd;
+    background-color: #dddddd;
     max-width: 400px;
     margin:0 auto;
     padding:30px;
     margin-bottom: 30px;
+}
+hr{
+    height: 0.6px;
+    background-color: rgb(55, 55, 55);
+    width: 200px;
+    margin:0 auto;
+
 }
