@@ -1,0 +1,11 @@
+{
+    "discord.detailsIdling": "Tétlen",
+    "discord.largeImage": "Szerkeszt: {LANG}",
+    "discord.detailsEditing": "Szerkeszt: {file_name}",
+    "discord.detailsDebugging": "Futtat: {file_name}",
+    "discord.lowerDetailsEditing": "Tér: {workspace}",
+    "discord.lowerDetailsNoWorkspaceFound": "Nincs munkatér",
+    "discord.lowerDetailsIdling": "Tétlen",
+    "discord.lowerDetailsDebugging": "Futtatja: {workspace}",
+    "discord.largeImageIdling": "Tétlen"
+}
